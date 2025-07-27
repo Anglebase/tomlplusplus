@@ -4,12 +4,5 @@ version = "3.4.0"
 type = "interface"
 
 [build]
-generator = "Ninja"
 jobs = 0
 stdcxx = 20
-
-[tests]
-includes = ["tests/include"]
-
-[examples]
-includes = ["examples/include"]
